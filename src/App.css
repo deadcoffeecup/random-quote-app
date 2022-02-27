@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+
+:root {
+  background-color: rgb(55, 55, 31);
+}
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#quote-box {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: rgb(234, 239, 189);
+  box-shadow: black 30px;
+  height: 500px;
+  width: 700px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#text {
+  text-align: center;
+  padding: 0 60px;
+  font-size: 40px;
+  font-family: "Redressed", cursive;
+  color: rgb(64, 85, 48);
+}
+#author {
+  padding: 40px;
+  font-size: 1rem;
+}
+#new-quote-btn {
+  color: rgb(201, 227, 172);
+  font-weight: bold;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  cursor: pointer;
+  background-color: rgb(144, 190, 109);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+#new-quote-btn:hover {
+  color: white;
+  background-color: red;
+}
+#new-quote-btn:active {
+  color: rgb(201, 227, 172);
+}
+#tweet-quote {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
